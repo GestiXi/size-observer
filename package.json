@@ -1,0 +1,29 @@
+{
+  "name": "size-observer",
+  "version": "0.1.0",
+  "description": "Plugin that aim to provide an efficient way to observe the size of DOM elements.",
+  "main": "size-observer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gestixi/size-observer.git"
+  },
+  "keywords": [
+    "observe",
+    "observer",
+    "resize",
+    "size",
+    "element",
+    "div",
+    "height",
+    "width"
+  ],
+  "author": "GestiXi <nicolas@gestixi.com> (https://www.gestixi.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gestixi/size-observer/issues"
+  },
+  "homepage": "https://github.com/gestixi/size-observer#readme"
+}
