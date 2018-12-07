@@ -1,7 +1,7 @@
 // ==========================================================================
 // Project:     Size Observer
 // Description: Efficiently observe size changes of a jQuery element
-// Copyright:   ©2014-2015 Nicolas BADIA
+// Copyright:   ©2012-2018 GestiXi
 // License:     Licensed under the MIT license (see LICENCE)
 // Version:     1.0
 // ==========================================================================
@@ -11,8 +11,8 @@
   // ..........................................................
   // SIZE OBSERVER PLUGIN DEFINITION
   //
-  
-  var itemsToObserve = [],  
+
+  var itemsToObserve = [],
     count = 0,
     timer,
     _newSize;
@@ -61,7 +61,7 @@
     return this.each(function() {
       var $this = $(this),
           instance = $this.data('onResize');
-      
+
       if (!instance) {
         instance = new OnResize(this, properties, callback);
         $this.data('onResize', instance);
@@ -102,7 +102,7 @@
 
     sizeCheckFunction: function(properties) {
       var element = this.element,
-        targets, 
+        targets,
         keyList,
         array = [];
 
@@ -184,7 +184,7 @@
     for (var i = itemsToObserve.length - 1; i >= 0; i--) {
       checkItem(itemsToObserve[i]);
     };
-    
+
     timer = setTimeout(run, count < 10 ? 64 : (count < 100 ? 250 : 1000));
     count++;
   };
@@ -197,7 +197,7 @@
 
   doRun();
 
-  $(window).on('resize', function() { 
+  $(window).on('resize', function() {
     doRun();
   });
 
