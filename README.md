@@ -65,4 +65,4 @@ as first parameter, and the callback as second parameter.
 
 ## Copyright and license
 
-Copyright 2013-2015 GestiXi under [The MIT License (MIT)](LICENSE).
+Copyright 2012-2018 GestiXi under [The MIT License (MIT)](LICENSE).

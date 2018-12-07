@@ -1,6 +1,6 @@
 {
   "name": "size-observer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Plugin that aim to provide an efficient way to observe the size of DOM elements.",
   "main": "size-observer.js",
   "scripts": {
